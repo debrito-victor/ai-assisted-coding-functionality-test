@@ -16,13 +16,13 @@ Repository with the data exports and R code used to test the functionality of tw
 
 README.md – README file
 
-app_portal/ – CSV exports from the AI App Portal https://debrito-victor.github.io/cornell-specimen-explorer/ (50 files)  
+app_portal.zip – CSV exports from the AI App Portal https://debrito-victor.github.io/cornell-specimen-explorer/ (50 files)  
   filtered_specimens_01.csv  
   filtered_specimens_02.csv  
   ...  
   filtered_specimens_50.csv  
 
-specify_portal/ – CSV exports from the CUMV Specify Portal https://webportal.specifycloud.org/cornellfishes/ (50 files)  
+specify_portal.zip – CSV exports from the CUMV Specify Portal https://webportal.specifycloud.org/cornellfishes/ (50 files)  
   01.csv  
   02.csv  
   ...  

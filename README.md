@@ -14,25 +14,29 @@ Repository with the data exports and R code used to test the functionality of tw
 
 ## Repository Structure
 
-.
-├── README.md                        # README file
-├── app_portal/                      # CSV exports from the AI App Portal https://debrito-victor.github.io/cornell-specimen-explorer/ (50 files)
-│   ├── filtered_specimens_01.csv
-│   ├── filtered_specimens_02.csv
-│   ├── ...
-│   └── filtered_specimens_50.csv
-├── specify_portal/                  # CSV exports from the CUMV Specify Portal https://webportal.specifycloud.org/cornellfishes/ (50 files)
-│   ├── 01.csv
-│   ├── 02.csv
-│   ├── ...
-│   └── 50.csv
-├── compare_cumv.R                   # R script for the comparison analysis
-├── fish_collection.csv			     # Copy from the fish database to pick a random genus/species combination from
-├── random_taxon.csv                 # List of taxon in the queries
-├── cumv_comparison_results.csv      # Appendix 1: per-query comparison summary
-└── cumv_maps.pdf      				 # Appendix 2: PDF files with maps generated from the AI Portal https://debrito-victor.github.io/cumv-map/ (Appendix 2A) and from the localities exported from the CUMV Specify 7 database (Appendix 2B)
+README.md – README file
 
----
+app_portal/ – CSV exports from the AI App Portal https://debrito-victor.github.io/cornell-specimen-explorer/ (50 files)  
+  filtered_specimens_01.csv  
+  filtered_specimens_02.csv  
+  ...  
+  filtered_specimens_50.csv  
+
+specify_portal/ – CSV exports from the CUMV Specify Portal https://webportal.specifycloud.org/cornellfishes/ (50 files)  
+  01.csv  
+  02.csv  
+  ...  
+  50.csv  
+
+compare_cumv.R – R script for the comparison analysis
+  
+fish_collection.csv – Copy from the fish database to pick a random genus/species combination from  
+
+random_taxon.csv – List of taxon in the queries  
+
+cumv_comparison_results.csv – Appendix 1: per-query comparison summary  
+
+cumv_maps.pdf – Appendix 2: PDF files with maps generated from the AI Portal https://debrito-victor.github.io/cumv-map/ (Appendix 2A) and from the localities exported from the CUMV Specify 7 database (Appendix 2B)
 
 ## Output
 
